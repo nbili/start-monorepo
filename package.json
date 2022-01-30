@@ -1,0 +1,14 @@
+{
+  "name": "start-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nbili/start-monorepo.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
